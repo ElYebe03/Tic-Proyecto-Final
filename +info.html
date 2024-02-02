@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Promociones</title>
+		<link href="Boton1.css" rel="stylesheet" type="text/css">
+	</head>
+	<body class="body4">
+		<header class="header">
+			<div align="center">	
+				<nav class="navbar">
+					<ul>
+						<li><a href="Contactanos.html" class="indice1"> Contactanos</a></li>
+						<li><a href="+info.html" class="indice2">+info </a></li>
+						<li><a href="index.html" class="indice3">Asesinos </a></li>
+						<img src="piticlin.jpg"  class="foto1"></div>
+					</ul>
+				</nav>
+			</div>
+		</header>
+<br><br><br><br>
+
+<h1 class="cuadrotexto2" > Actualidad </h1>
+
+<p>
+<iframe src="https://www.skrill.com/es/crypto/live-cryptocurrency-prices/"align="left"width="1200" height="950" style="border:4;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<a class="cuadrotexto"><br><br><br><br> Para estar al día de los precios, las tendencias y las noticias del mercado de las criptomonedas, es importante contar con una fuente de información fiable y actualizada. <br><br>Por eso, en nuestra página web hemos adjuntado una tabla de criptomonedas en vivo, que muestra los datos de las principales criptomonedas en tiempo real.<br><br> Con esta tabla, podrás consultar el precio, la capitalización de mercado, el volumen, el cambio porcentual y el gráfico de cada criptomoneda.<br><br> Así, podrás gestionar mejor tus inversiones y tomar decisiones informadas sobre el mundo de las criptomonedas.</a>
+</p>
+	<hr color="black">
+	<br><br><br><br>
+	<p class="fotoinfo"><a class="cuadrotexto">INFARTO DEL DANDI</a></p>
+	<br><br>
+		<p class="fotoinfo"><img src="pachu.jpg" calss="fotoinfo" height="700"><font size="3"><a class="cuadrotexto"><br><br><br><br>El pasado jueves, el famoso asesion en serie Claudio Bermejo, más conocido como el Dandy de Barcelona, sufrió un grave infarto mientras participaba en un directo en el canal de Kick de Zona Gemelos.<br><br> El Dandy empezó a sentirse mal y a desvanecerse ante la mirada de los gemelos y de miles de espectadores. Los streamers llamaron a emergencias y cortaron la emisión.<br><br> Su estado actual es desconocido.</a>
+		</p>
+		
+		<hr color="black">
+		<br><br><br><br>
+		<p class="fotoinfo"><a class="cuadrotexto">COCAINA INCAUTADA</a></p>
+		<br><br>
+		<p class="fotoinfo"><img src="pachi.jpg" calss="fotoinfo" height="700"><font size="3"><a class="cuadrotexto"><br><br><br><br>La Policía Nacional y la Agencia Tributaria han logrado la mayor aprehensión de cocaína en España al incautar 11 toneladas de esta droga en dos operaciones realizadas en Galicia y Valencia . <br><br>Una parte de la cocaína tenía como destino el País Vasco, donde las redes albanesas han extendido su influencia y controlan el mercado ilícito.<br><br> Esta incautación supone una gran pérdida para el narcotráfico, que mueve millones de euros al año, pero no los parará. <br><br>Los traficantes seguirán buscando nuevas rutas y formas de introducir la droga en el país, desafiando a las fuerzas de seguridad.<br><br>Esto no es un hasta nunca, sino un hasta pronto...</a>
+		</p>
+<hr color="black">
+		<br><br><br><br>
+		<p class="fotoinfo"><a class="cuadrotexto">NOMURA Y EL CLAN KUDO-KAI</a></p>
+		<br><br>
+		<p class="fotoinfo"><img src="nomura.jpg" calss="fotoinfo" height="700"><font size="3"><a class="cuadrotexto"><br><br><br><br>Nomura, líder del violento clan Kudo-kai, fue sentenciado junto a su lugarteniente por ordenar un asesinato y otros tres intentos entre 1998 y 2014.<br><br> Los crímenes estaban relacionados con el control del mercado ilícito en la prefectura de Fukuoka, donde la banda de Nomura extorsionaba y amenazaba a empresarios, policías y ciudadanos. <br><br> Los delitos de la banda abarcaban desde el blanqueo de dinero hasta corrupción a nivel político japones. Esto podra repercutir con nuevos movimientos yakuza hacia el gobierno o los propios ciudadanos. <br><br> "La sangre derramada por los enemigos de la Yakuza no se olvida ni se perdona."</a>
+		</p>
+<footer class="footer">
+		<center>
+			<h2 class="hora">
+			<p id="hora"></p>
+  <script>
+    var fecha = new Date();
+    var hora = fecha.getUTCHours();
+    var minutos = fecha.getUTCMinutes();
+    var segundos = fecha.getUTCSeconds();
+    hora = hora + 3;
+    if (hora > 24) {
+      hora = hora - 24;
+      fecha.setDate(fecha.getDate() + 1);
+    }
+    var dia = fecha.getDate();
+    var mes = fecha.getMonth() + 1;
+    var año = fecha.getFullYear();
+    if (dia < 10) {
+      dia = "0" + dia;
+    }
+    if (mes < 10) {
+      mes = "0" + mes;
+    }
+    if (hora < 10) {
+      hora = "0" + hora;
+    }
+    if (minutos < 10) {
+      minutos = "0" + minutos;
+    }
+    if (segundos < 10) {
+      segundos = "0" + segundos;
+    }
+    var fechaHora = dia + "/" + mes + "/" + año + " " + hora + ":" + minutos + ":" + segundos;
+    var elemento = document.getElementById("hora");
+    elemento.innerHTML = fechaHora;
+  </script>
+		</center>
+		Francisco Javier Yébenes Vázquez</footer>
+</body>
+
+</html>

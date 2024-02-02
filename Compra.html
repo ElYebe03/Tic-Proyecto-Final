@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+	<header class="header">
+			<div align="center">	
+				<nav class="navbar">
+					<ul>
+						<li><a href="Contactanos.html" class="indice1"> Contactanos</a></li>
+						<li><a href="+info.html" class="indice2">+info </a></li>
+						<li><a href="index.html" class="indice3">Asesinos </a></li>
+						<img src="mercedes3.jpg"  class="foto1"></div>
+					</ul>
+				</nav>
+			</div>
+		</header>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Compra</title>
+	<link href="Boton1.css" rel="stylesheet" type="text/css">
+</head>
+<body class="body2">
+	<br><br><br><br><br><br><br><br><br><br><br><br>
+		<div>
+			<form action="file:///C:/Users/Usuario/Desktop/First%20Real/index.html" method="post">
+				<fieldset>
+					<legend align="center" class="buy">Finalice la compra</legend>
+					<p align="center" class="buy">Tipo de moneda:
+					<select name="talla">
+						<option>Bitcoin</option>
+						<option>Ethereum</option>
+						<option>Dogecoin</option>
+						<option>Tron</option>
+						<option>Tether USDt</option>
+						<option>Solana</option>
+						<option>BNB</option>
+					</select>
+						<br>
+						Enlace de cartera: <input type="text">
+						<br>
+						Dirección de entrega: <input type="text">
+						<br><br>
+						<input type="reset" value="Confirmar" onclick="confirmar()">
+						 <script>
+							  function confirmar() {
+      alert("Compra confirmada👾");
+    }
+     </script>
+						<br>
+					</p>
+				</fieldset>
+			</form>
+		</div>
+		<br><br><br><br><br><br><br><br><br><br><br><br>
+<footer class="footer">
+		<center>
+			<h2 class="hora">
+			<p id="hora"></p>
+  <script>
+    var fecha = new Date();
+    var hora = fecha.getUTCHours();
+    var minutos = fecha.getUTCMinutes();
+    var segundos = fecha.getUTCSeconds();
+    hora = hora + 3;
+    if (hora > 24) {
+      hora = hora - 24;
+      fecha.setDate(fecha.getDate() + 1);
+    }
+    var dia = fecha.getDate();
+    var mes = fecha.getMonth() + 1;
+    var año = fecha.getFullYear();
+    if (dia < 10) {
+      dia = "0" + dia;
+    }
+    if (mes < 10) {
+      mes = "0" + mes;
+    }
+    if (hora < 10) {
+      hora = "0" + hora;
+    }
+    if (minutos < 10) {
+      minutos = "0" + minutos;
+    }
+    if (segundos < 10) {
+      segundos = "0" + segundos;
+    }
+    var fechaHora = dia + "/" + mes + "/" + año + " " + hora + ":" + minutos + ":" + segundos;
+    var elemento = document.getElementById("hora");
+    elemento.innerHTML = fechaHora;
+  </script>
+		</center>
+		Francisco Javier Yébenes Vázquez</footer>
+</body>
+</html>

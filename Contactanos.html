@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Promociones</title>
+		<link href="Boton1.css" rel="stylesheet" type="text/css">
+	</head>
+	<body class="body3">
+		<header class="header">
+			<div align="center">	
+				<nav class="navbar">
+					<ul>
+						<li><a href="Contactanos.html" class="indice1"> Contactanos</a></li>
+						<li><a href="+info.html" class="indice2">+info </a></li>
+						<li><a href="index.html" class="indice3">Asesinos </a></li>
+						<img src="mercedes2.jpg"  class="foto1"></div>
+					</ul>
+				</nav>
+			</div>
+		</header>
+</head>
+<body>
+		<table>
+			<tr>
+				<td class="formulario">
+					<div class="fotoinfo">
+						<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+						<form action="+info.html" method="post">
+							<fieldset>
+								<legend><h1 class="sesion1">Identifícate</h1></legend>
+								<a class="sesion">Nombre:</a>  <input type="text">
+								<br>
+								<a class="sesion">Apellidos:</a>  <input type="text">
+								<br>
+								<a class="sesion">Código de referencia:</a>  <input type="text">
+								<br>
+								<a class="sesion">Contraseña:</a> <input type="password">
+								<br>
+								<input type="reset" value="Entrar" onclick="confirmar()">
+						 <script>
+							  function confirmar() {
+      alert("Sesión Iniciada como E4J########R ✔️");
+    }
+     </script>
+							</fieldset>
+						</form>
+					</div>
+				</td>
+			</tr>
+		</table>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<div class="fotoinfo">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21457.799382005775!2d49.48481960117534!3d55.576368245730386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415ea28a5f5e2be9%3A0xe2a87cfc33967a5e!2sBogoyavlenskiy%20Khram!5e0!3m2!1ses!2ses!4v1706483014618!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d77084.1069581672!2d46.32455537485436!3d-9.429857218380286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x227a33651fb8a85f%3A0x2e5729294d0feb54!2z0KLRg9Cw0LvQtdGCINCe0LvQtdGI0Lg!5e0!3m2!1ses!2ses!4v1706905340324!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d93986.10632169463!2d45.93694048142101!3d31.73372975352485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fe1210035c218fd%3A0xf90b84abe45b3c34!2z2KfYr9mK2KfYsSDYp9mE2KjZiCDYtdmD2LEg2KfZhNis2YbYp9io2YrZitmG!5e0!3m2!1ses!2ses!4v1706905437299!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<br><br>	<a class="sesion2">Teléfono:+8 (909) 494-28-49 <br><BR>M3rc3nar10s.onion</a>
+		</div>
+		<br>	
+<footer class="footer">
+		<center>
+			<h2 class="hora">
+			<p id="hora"></p>
+  <script>
+    var fecha = new Date();
+    var hora = fecha.getUTCHours();
+    var minutos = fecha.getUTCMinutes();
+    var segundos = fecha.getUTCSeconds();
+    hora = hora + 3;
+    if (hora > 24) {
+      hora = hora - 24;
+      fecha.setDate(fecha.getDate() + 1);
+    }
+    var dia = fecha.getDate();
+    var mes = fecha.getMonth() + 1;
+    var año = fecha.getFullYear();
+    if (dia < 10) {
+      dia = "0" + dia;
+    }
+    if (mes < 10) {
+      mes = "0" + mes;
+    }
+    if (hora < 10) {
+      hora = "0" + hora;
+    }
+    if (minutos < 10) {
+      minutos = "0" + minutos;
+    }
+    if (segundos < 10) {
+      segundos = "0" + segundos;
+    }
+    var fechaHora = dia + "/" + mes + "/" + año + " " + hora + ":" + minutos + ":" + segundos;
+    var elemento = document.getElementById("hora");
+    elemento.innerHTML = fechaHora;
+  </script>
+		</center>
+		Francisco Javier Yébenes Vázquez</footer>
+</body>
+</html>
